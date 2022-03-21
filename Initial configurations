@@ -1,0 +1,220 @@
+game 1
+
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([1,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([3,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([2,3])),
+    assert(pit_location([4,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 2
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([3,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,4])),
+    retractall(pit_location(_)),
+    assert(pit_location([1,4])),
+    assert(pit_location([3,1])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1]))
+
+game 3:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([2,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([1,3])),
+    retractall(pit_location(_)),
+    assert(pit_location([4,2])),
+    assert(pit_location([4,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 4:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([4,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([1,3])),
+    retractall(pit_location(_)),
+    assert(pit_location([2,4])),
+    assert(pit_location([4,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 5:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([1,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([2,1])),
+    assert(pit_location([4,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 6:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([1,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([2,1])),
+    assert(pit_location([1,4])),
+    assert(pit_location([4,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 7:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([4,4])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([2,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([1,4])),
+    assert(pit_location([3,1])),
+    assert(pit_location([3,3])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 8:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([4,2])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,4])),
+    retractall(pit_location(_)),
+    assert(pit_location([3,1])),
+    assert(pit_location([1,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 9:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([2,4])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,4])),
+    retractall(pit_location(_)),
+    assert(pit_location([1,4])),
+    assert(pit_location([3,1])),
+    assert(pit_location([3,3])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 10:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([4,3])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([4,4])),
+    retractall(pit_location(_)),
+    assert(pit_location([2,2])),
+    assert(pit_location([4,1])),
+    assert(pit_location([2,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 11:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([2,2])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([3,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([4,1])),
+    assert(pit_location([2,4])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
+
+game 12:
+init:-
+    retractall(timer(_)),
+    assert(timer(0)),
+    retractall(score(_)),
+    assert(score(30)),
+    retractall(gold_location(_)),
+    assert(gold_location([4,4])),
+    retractall(wumpus_location(_)),
+    assert(wumpus_location([3,2])),
+    retractall(pit_location(_)),
+    assert(pit_location([1,3])),
+    assert(pit_location([4,3])),
+    retractall(agent_location(_)),
+    assert(agent_location([1,1])),
+    retractall(wumpus_final_location(_)),
+    assert(wumpus_final_location([-1,-1])).
